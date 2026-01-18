@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+<table style="width:100%" height="30%" border="1" bgcolor="black">
+	              <tr>
+                     <td colspan="6" bgcolor="green" ><h1 align="center" >Pak Cloth House</h1></td>
+				  </tr>
+				  <tr>
+					 <td style="width:20%; height:50px;"  ><a href="main.html"><button style="width:100%; height:100%;" >Home</button></a></td>
+					 <td style="width:20%; height:50px;" ><a href="about.html"><button style="width:100%; height:100%;">About</button></a></td>
+					 <td style="width:20%; height:50px;"><a href="products.html"><button style="width:100%; height:100%;">Product</button></a></td>
+					 <td style="width:20%; height:50px;"><a href="contacts.html"><button style="width:100%; height:100%;">News</button></a></td>
+					 <td style="width:20%; height:50px;"><a href="contacts.html"><button style="width:100%; height:100%;">Contact</button></a></td>
+                      
+                   </tr>
+	   
+	   </table>
+
+
+</head>
+
+<body>
+
+<h1 style="text-align:center;">GROOMWEAR</h1>
+<p style="text-align:center;">Price £300</p>
+<p style="text-align:left"> Select Size</p>
+
+<form action="/action_page.php">
+  <label for="sizes">Choose a size:</label>
+  <select name="Size" id="sizes">
+    <option value="Small">Small</option>
+    <option value="Medium">Medium</option>
+    <option value="Large">Large</option>
+    
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+
+
+
+
+
+
+
+</html>
